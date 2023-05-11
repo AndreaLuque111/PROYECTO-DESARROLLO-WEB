@@ -1,0 +1,26 @@
+body{ 
+
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 186, 203);
+}
+
+
+@media screen (min-width: 480px) {
+    
+
+
+    .contenedor { 
+        justify-content: center;
+        width: 90%;
+        margin: auto; }
+    
+}
+
+.contenedor { 
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+
+
