@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 768px) {
+
+    header{ 
+        background-position: center;
+
+    }
+     .contenedor-1{
+        justify-content: center;
+        align-items: center;
+     }
+
+    
+}
+
+.contenedor-1{
+     
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgb(166, 197, 187);
+    
+
+
+}
+
+.contenedor-1 p { 
+    color: black;
+    margin: 50px;
+}
+
+.contenedor-encuesta {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin:auto;
+    background-color: rgb(199, 219, 213);
+    text-align: center;
+    
+    
+
+}
+
+.contenedor-sugerencias{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgb(102, 150, 161);
+    text-align: center;
+    
+}
+
+.titulo{
+    color: rgb(5, 88, 77);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom:60px ;
+
+
+}
+
+header{
+    width: 100%;
+    height:600px ;
+    background-color: rgb(6, 159, 185);
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+}
+
+nav > a {
+    color: aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .texto-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texto-header h1 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.texto-header h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: antiquewhite;
+
+}
+
+footer{
+    background-color: rgb(6, 82, 182);
+    padding: 60px 0 30px 0 ;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #940000;
+}
+
+.contenedorft{
+    text-align: center;
+}
+
+.contenedorft h4 {
+     color: aliceblue;
+     border-bottom: 3px solid #c3b3c7;
+     padding-bottom: 5px;
+     margin-bottom: 1px;
+}
+
+.contendeorft p {
+    color: #e0d2d2;
+}
+
+
