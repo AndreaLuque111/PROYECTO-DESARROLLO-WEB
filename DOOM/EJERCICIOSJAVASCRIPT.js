@@ -69,3 +69,5 @@ function mayorArray(array){
         return "Número mayor: "+mayornumero + " Cantidad de impares: "+impares;
     }
 }
+
+

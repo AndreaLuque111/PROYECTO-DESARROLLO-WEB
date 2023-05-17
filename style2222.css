@@ -4,8 +4,21 @@
     box-sizing: border-box;
 }
 
-body{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+
 }
+
+
+
+
+
+  
+    
+
+
 
 
 @media screen and (min-width: 480px) 
@@ -31,6 +44,8 @@ and (max-width: 768px) {
     overflow: hidden;
     margin: auto;
     background-color: rgb(166, 197, 187);
+
+
     
 
 
@@ -146,5 +161,64 @@ footer{
 .contendeorft p {
     color: #e0d2d2;
 }
+
+
+
+#modo {
+    width:30px;
+    margin: auto; 
+    cursor: pointer;
+    
+
+}
+
+.dark header{
+    background-color: rgb(8, 12, 44);
+}
+
+.dark .titulo
+{
+    color: aliceblue;
+}
+
+.dark.contendeorft {
+    background-color: rgb(24, 24, 53);
+
+}
+
+.dark .contenedor-1 {
+    background-color:rgb(46, 48, 153);
+ 
+
+}
+
+.dark .contenedor-encuesta{
+background-color:rgb(16, 6, 68);
+
+}
+
+.dark .contenedor-sugerencias{
+    background-color: rgb(2, 48, 66);
+
+}
+
+.dark footer {
+    background-color: black;
+
+
+}
+
+.dark .contenedor-1 p
+{
+    color: aliceblue;
+}
+
+
+.dark .h4 .p
+{ 
+    color: aliceblue;
+}
+
+
 
 
