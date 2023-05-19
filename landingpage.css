@@ -1,0 +1,459 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caudex';
+
+
+}
+
+
+/* RESPONSIVE*/
+@media screen and (min-width:400px) and (max-width:1200px) {
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        
+
+    }
+
+
+    .container-about-us{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+   
+    .nuestroproducto{  
+        font-size: small;
+        flex-direction: column;
+        width: 100vw;
+        width: 100%;
+        
+
+    }
+
+    .nuestroproducto img{
+
+        width: 240px;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+
+    .nuestroproducto h3{
+        width: 100%;
+        padding-left: 0;
+    }
+
+   
+
+    .contenedormd{
+        
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        
+
+    }
+
+
+.profesores {
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+         
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.Contenedor-footer {
+    justify-content: space-around;
+    font-size: xx-small;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #052c81;
+
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradien(to right, hsla(217, 89%, 61%, 0.623), hsla(222, 11%, 24%, 0.623)), url(./Imagenes/Portada.jpg);
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.623), hsla(222, 11%, 24%, 0.623)), url(./Imagenes/banderaportada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    /*30 px arriba , abajo 50px 0izq 0 derecha*/
+
+}
+
+nav>a {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    /*fuente mas suave*/
+    text-decoration: none;
+    margin-right: 20px;
+    /* separar */
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.sea {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.texto1 {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto1 h1 {
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+.texto1 h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/*Nuestro producto -Sobre nosotros*/
+
+.container-about-us h2{
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #052c81;
+}
+
+
+
+.container-about-us{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.nuestroproducto {
+    padding-top: 5%;
+    text-align: center;
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: center;
+
+
+
+}
+
+.nuestroproducto h3 {
+
+    width: 100%;
+
+
+}
+
+
+
+
+.img-about-us {
+
+    width: 35%;
+    margin-right: 25px;
+
+
+
+}
+
+
+
+/*Modalidades virtual y presencial*/
+
+.modalidades{
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+
+.modalidades h2{
+    
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #052c81;
+}
+
+.contenedormd {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 10rem 0rem 10rem;
+    ;
+    align-items: center;
+   
+
+
+
+}
+
+.cont-md {
+
+    align-items: center;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+
+
+
+/*Profesores */
+
+
+.profesores{
+   
+   padding-top: 30px;
+   margin-bottom: 10%;
+}
+.profesores h2{
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #052c81;
+}
+.profesora-container {
+    width: 100%;
+   max-width: 1200;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+   
+    
+
+
+}
+
+
+.card {
+
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    background: #b92b27;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b92b27, #1565c0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+ 
+
+}
+
+
+
+.card img {
+
+    width: 200px;
+    height: 180px;
+    border-radius: 100%;
+    
+
+
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+
+.profesora-container h3 {
+    padding-top: 10%;
+    margin-bottom: 3%;
+
+    color: #f2f2f2;
+
+}
+.profesora-container p {
+    
+    color: #f2f2f2;
+   
+}
+
+
+
+/*Formulario*/
+
+.formu {
+    background-color: #f2f2f2;
+    padding-top: 2%;
+    padding-bottom: 20px;
+}
+
+.formulario{
+
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradien(to right, hsla(217, 42%, 64%, 0.623), hsla(218, 11%, 48%, 0.623)), url(./Imagenes/patron-fisuras-redes-sociales-redes-comunicacion-global-internet-chat-simbolos-mensajeria-instantanea-sobre-fondo-blanco-ilustracion-vector-estilo-arte-linea-fondo-pantall.avif);
+    background: linear-gradient(to right, hsla(217, 42%, 64%, 0.623), hsla(218, 11%, 48%, 0.623)), url(./Imagenes/patron-fisuras-redes-sociales-redes-comunicacion-global-internet-chat-simbolos-mensajeria-instantanea-sobre-fondo-blanco-ilustracion-vector-estilo-arte-linea-fondo-pantall.avif);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 10%;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 55px;
+
+
+
+}
+
+
+
+.formulario p {
+    font-family: 'caudix';
+    color: #000000;
+    padding: 12px;
+
+}
+
+.formulario .campo {
+    margin-bottom: 2%;
+}
+
+.titulo-form {
+
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #052c81;
+
+}
+
+.submit {
+    margin-top: 5%;
+    background-color: #af082c;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #000000;
+
+}
+
+.Contenedor-footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 8px 30px;
+    color: #f2f2f2;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.boton {
+    background-color: #1565c0;
+    border: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px 6px;
+    cursor: pointer;
+
+
+}
